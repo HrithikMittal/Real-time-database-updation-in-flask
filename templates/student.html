@@ -1,0 +1,22 @@
+<html>
+   <body style="text-align: center;font-size:20px;padding:160px;border:1px solid">
+      <form action = "{{ url_for('addrec') }}" method = "POST">
+         <h3>Player Information</h3>
+         Name
+         <input type = "text" name = "nm" /></br></br>
+
+         Score
+         <input type = "text" name = "score" /><br><br>
+
+         Balls
+         <input type = "text" name = "balls" /><br><br>
+
+         Sixes
+         <input type = "text" name = "sixes" /><br><br>
+
+         <input type = "submit" value = "submit" /><br>
+      </form>
+
+      <p>Want to see list <a href="/list">Click Me</a></p>
+   </body>
+</html>
